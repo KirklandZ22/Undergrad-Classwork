@@ -1,0 +1,3 @@
+# Programming Assignment #4: Reflections and Kindred Spirits
+
+The Kindred Spirits assignment required utilizing different recursive functionality on binary trees. There were two main problems in this assignment finding if two binary trees are reflections of each other or if they are kindred spirits. A tree reflects another if they are symmetric in terms of both their structure and their node values. While a pair of trees are kindred spirits if the preorder traversal of one of the trees corresponds to the post order traversal of the other tree.

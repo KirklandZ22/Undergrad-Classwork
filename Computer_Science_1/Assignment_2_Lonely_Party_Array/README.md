@@ -1,0 +1,3 @@
+# Programming Assignment #2: Lonely Party Array
+
+This assignment was to implement lonely party arrays. Lonely party arrays are arrays that are broken into fragments that get allocated and deallocated on an as needed basis, rather than being allocated all at once as one big array, to eliminate unnecessary memory bloat. This assignment allowed for experience working with dynamic memory management, pointers, and structs in C while using Valgrind to test for memory leaks.

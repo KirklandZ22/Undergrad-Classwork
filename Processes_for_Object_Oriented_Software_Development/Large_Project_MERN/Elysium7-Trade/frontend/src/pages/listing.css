@@ -1,0 +1,103 @@
+#listingPage {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -80px;
+}
+
+#listingHeader {
+    display: inline-block;
+    width: 250px;
+	background-image: url(/src/pages/Pictures/woodBackground.png);
+	background-position: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    justify-content: center;
+	padding: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    z-index: -1;
+}
+
+#listingPage #listing-image {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    align-items: center;
+    margin-top: 75px;
+}
+
+#listingPage #listing-image img 
+{
+    max-width: 500px;
+    max-height: 500px;
+    padding-bottom: 10px;
+}
+
+#listingPage #input-fields {
+    width: calc(60vw - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    text-align: center;
+}
+
+#listingPage #input-fields .field {
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+}
+
+#listingPage #input-fields label {
+    font-family: 'Gudea-Bold';
+    font-weight: 400;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    align-self: center;
+    display: inline-block;
+}
+
+#listingPage .input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#listingPage #input-fields .Dropdown-root {
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 5px;
+    margin: 10px 0px;
+    text-align: center;
+}  
+
+
+#listingPage .click-text{
+    font-family: 'Gudea-Bold';
+    font-weight: 350;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+#listingPage .click-text:hover{
+    opacity: 0.75;
+	cursor: pointer;
+    color:whitesmoke;
+}

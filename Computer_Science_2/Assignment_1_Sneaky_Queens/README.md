@@ -1,0 +1,3 @@
+ # Programming Assignment #1: SneakyQueens
+
+This assignment was meant to test problem solving techniques as well as test prior understanding of knowledge of java prior to Computer Science 2. Having a chess board with placed queens on it the program had to figure out if any of the queens were able to attack a different one. While my approach to this problem was not the fastest possible solution it allowed me to gain practice with HashSets and multiple classes.

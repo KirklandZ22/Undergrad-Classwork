@@ -1,0 +1,3 @@
+# Programming Assignment #3: SneakyKnights
+
+This program is meant to see if on a randomly sized chess board and placed knights can attack a different one. To approach this problem the program leverages HashSets and a position class to compare the knights as they are read by the program. In addition, this allowed practice with override as the equals modifier for the position had to check the hashCode and individual the values. 

@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Paradise 7 Contact Manager</title>
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">
+        <a href="http://paradise7.ninja/contacts.html" style = "visibility: hidden;">
+            <img id= "logo" src="images/NinjaLogo.png" alt="a cartoon ninja" style="width: 85px; visibility:visible;">
+        </a>
+        Ninja Contact Manager
+        <img id="logo" src="images/NinjaLogo.png" alt="a cartoon ninja" style="width: 85px; visibility: hidden">    </h1>
+    <div id="tableHead">
+        <table>
+            <tr>
+                <th><button type="button" id="logout" class="boxButton" onclick="doLogout();">Logout</button></th>
+                <th><input type="text" id="search"  placeholder="Search for Contact..." onkeyup="if (event.keyCode === 13) { searchContactCall(); }"></th>
+                <th> <button type="button" id="addContact" class="boxButton" onclick="location.href='addContact.html'">Add Contact</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id=editPopup>
+    	<div id="loginDiv">
+			<span id="inner-title">Edit Contact Below</span>
+			<input type="text" id="editName" placeholder="Name" /><br />
+    		<input type="text" id="editPhoneNum" placeholder="Phone Number" /><br />
+			<input type="text" id="editEmail" placeholder="Email Address" /><br />
+			<p id="hiddenID">TEST</p>
+			<button type="button" id="regButton" class="primaryButton" onclick="updateContact();"> Update Contact </button>
+			<button type="button" id="regButton" class="primaryButton" onclick="closeEdit();"> Exit Edit </button>
+			<span id="contactEditResult"></span>
+		</div>
+	</div>
+
+    <div id="boxBg">
+        <p style = "color:black" id="contactSearchResult"></p>
+    </div>
+
+
+
+</body>
+</html>

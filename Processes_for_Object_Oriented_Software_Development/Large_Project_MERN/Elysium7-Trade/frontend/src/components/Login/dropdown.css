@@ -1,0 +1,136 @@
+#login-box {
+    position: absolute;
+    right: 10%;
+    top: -50%;
+    transition: top 1s;
+    transition-timing-function: ease-out;
+    background-image: url("../../pages/Pictures/loginreg-wooden-sign.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 200px 40px 40px 40px;
+    z-index: 10;
+}
+
+#register-box {
+    position: absolute;
+    right: 10%;
+    top: -50%;
+    transition: top 2s;
+    background-image: url("../../pages/Pictures/loginreg-wooden-sign.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 300px 50px 40px 50px;
+    z-index: 10;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#register-box .column-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#register-box .req-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 20px;
+    width: 20em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#register-box .field {
+    font-size: 24px;
+    width: 20em;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+#login-box .column-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#login-box .req-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 20px;
+    width: 20em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#login-box .field {
+    font-size: 24px;
+    width: 20em;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+
+.horizontal > .field{
+    width: 9.4em; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-box label {
+    align-self: flex-start;
+    font-size: 20px;
+}
+
+.register-box label {
+    align-self: flex-start;
+    font-size: 20px;
+}
+
+
+
+.click-text{
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: 'Aladin';
+    font-size: x-large;
+}
+
+.click-text:hover{
+    opacity: 0.75;
+	cursor: pointer;
+    color:white;
+}
+
+.button {
+	height: 40px;
+	background-color: #ffc370;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    font-family: 'Aladin';
+	src: url('../../pages/Fonts/Aladin-Regular.ttf') format('truetype');
+}
+
+.button:hover {
+	background-color: #89964c;
+	transition: 0.5s;
+}

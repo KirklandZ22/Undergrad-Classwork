@@ -1,0 +1,192 @@
+body {
+	background-color: #a08377;
+	overflow: hidden;
+}
+
+main {
+	margin: 0 auto;
+	padding: 20px;
+	position: absolute;
+	z-index: 0;
+	background-image: url(/src/pages/Pictures/market-place-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: calc(100vw - 40px);
+	overflow-x: hidden;
+	border-radius: 20px;
+	height: calc(100vh - 180px);
+}
+
+@font-face {
+	font-family: 'Aladin';
+	src: url('./pages/Fonts/Aladin-Regular.ttf') format('truetype');
+}
+
+
+
+h1 {
+	font-size: 3em;
+	font-family: 'Aladin', sans-serif;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Aladin', cursive;
+	font-size: 2em;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#darkScreen {
+	opacity: 70%;
+	background-color: black;
+	width: 100%; height: 10000px;
+	position: absolute;
+	top: 0; left: 0;
+	z-index: 8;
+	pointer-events:all;
+	animation-name: example;
+  	animation-duration: 1s;
+	overflow-y: hidden;
+}
+
+@keyframes example {
+	from {opacity: 0%}
+	to {opacity: 70%}
+}
+
+#searchImg{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#logo {
+	height: 80px;
+	width: auto;
+	cursor: pointer;
+}
+
+#title {
+	cursor: pointer;
+}
+
+#left, #right {
+	display: flex;
+	align-items: center;
+}
+
+#left > *, #right > * {
+	margin-right: 25px;
+}
+
+.topBar {
+	background-color: #374c37;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	padding: 0 20px;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.topBar button {
+	background-image: url('./pages/Pictures/button-wooden-sign.png');
+	background-size: cover;
+	background-position: center;
+	height: 80px;
+	width: 140px;
+	border: none;
+	background-color: transparent;
+	font-size: 1.25em;
+	padding-top: 25px;
+	font-family: 'Aladin', sans-serif;
+	font-weight: 450;
+	
+}
+
+.topBar button:hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+.searchBox {
+	display: flex;
+	align-items: center;
+}
+
+.searchBox input {
+	height: 50px;
+	width: 130%;
+	font-size: 1em;
+	padding: 0 10px;
+	border: none;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.categoryBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	background-color: #51684a;
+	height: 50px;
+	width: 100%;
+	z-index: 1;
+}
+
+.categoryBar button {
+	height: 40px;
+	padding: 5px 10px;
+	background-color: #51684a;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.categoryBar button:hover {
+	background-color: #89964c;
+	transition: 0.5s;
+}
+
+#landingPage {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#input-box{
+	width: 80%;
+	height: 300px;
+	background-color:blanchedalmond; 
+}
+
+.Listing {
+	display: inline-block;
+	width: 250px;
+	background-image: url(/src/pages/Pictures/woodBackground.png);
+	background-position: left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 30px;
+	justify-content: center;
+	z-index: -1;
+}
+
+.Listing h2 {
+    padding-left: 30px;
+}
+
+

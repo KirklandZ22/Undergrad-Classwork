@@ -1,0 +1,3 @@
+# Programming Assignment #5: Text Prediction with Tries
+
+This assignment focused on the trie data structure and creative ways to utilize a trie. This program utilized tries to find words that occur together and predict what words will come next based on the corpus that is inputted to the trie. This causes for not only a trie to hold the entire corpus but also a trie for each word to track co-occurrences for the prediction model.

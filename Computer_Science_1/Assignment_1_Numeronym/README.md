@@ -1,0 +1,3 @@
+# Programming Assignment #1: Numeronym
+
+This assignment focused on string manipulation in C. The objective of this assignment was to shorten words into numeronyms if they are nine characters or longer. An example of a numeronyms is “globalization” becoming “g11n”. There are two parts to the code the first being the main and printNumeronym functions which will take a string passed in from the command line and shorten the words if needed. The second is the printShortenedSentence function which was called by external test cases that preserved punctuation and spacing in the given sentence while shortening any long words. 

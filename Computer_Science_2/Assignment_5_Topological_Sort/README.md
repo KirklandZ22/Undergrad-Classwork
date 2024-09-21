@@ -1,0 +1,3 @@
+# Programming Assignment #5: Constrained Topological Sort
+
+Constrained Topological Sort is meant to determine a directed graph has a valid topological sort in which a vertex, x, comes before a different vertex, y. This assignment gave practice with graphs and doing computations on them in Java. Being able to take in a directed graph, find the possible topological sorts, and then see if it contains a topological sort where x is before y. 
